@@ -16,7 +16,7 @@ body {
 /* HEADER CSS STYLES */
 
 header {
-    height: 10vh;
+    height: 12.5vh;
     width: 100%;
     background-color: black;
     position: fixed;
@@ -167,15 +167,16 @@ header {
 
 main {
     position: absolute;
-    margin-top: 10vh;
+    margin-top: 20vh;
     width: 100%;
 }
 
 section {
     height: 100vh;
     width: 80%;
-    min-width: 703px;
-    margin: 40px auto;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
     position: relative;
     border-radius: 1em;
 }
@@ -183,7 +184,7 @@ section {
 .section-head {
     position: absolute;
     transform: translateX(-50%);
-    top: 10vh;
+    top: 12.5vh;
     left: 50%;
 }
 

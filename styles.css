@@ -1930,10 +1930,18 @@ img {
         height: 45vh;
     }
 
-    #scientist,
-    #checkbox-bulb {
-        height: 60vh;
+    #scientist{
+        height: 70vh;
     }
+
+    #popsicle {
+        height: 50vh;
+}
+
+    #checkbox-bulb {
+        height: 70vh;
+    }
+
 
     .crow-leg-2 {
         left: 3.92rem;
@@ -1974,5 +1982,4 @@ img {
         gap: 60px;
     }
 
-    #
 }

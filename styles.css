@@ -36,9 +36,11 @@ header {
 
 }
 
-#logo h1 {
+#logo {
+    font-size: 1em;
     display: flex;
     justify-content: space-between;
+    line-height: 10vh;
 }
 
 #A {
@@ -81,10 +83,11 @@ header {
 }
 
 #author {
-    font-size: 0.55em;
+    font-size: 0.65em;
     align-self: center;
     margin-left: 10px;
     color: white;
+   
 }
 
 
@@ -167,12 +170,12 @@ header {
 
 main {
     margin-top: 20vh;
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 10vh;
-
 }
 
 section {
@@ -1098,12 +1101,6 @@ img {
         }
 }
 
-@media screen and (min-width: 800px) {
-    .container {
-        font-size: 1.2em;
-    }
-}
-
 /* SECTION 6 */
 
 #popsicle {
@@ -1367,11 +1364,6 @@ img {
     box-shadow: 2.5em 1.25em #0b2b35;
 }
 
-@media screen and (min-width: 700px) {
-    .container {
-        font-size: 1.2em;
-    }
-}
 
 /* SECTION 9 */
 
@@ -1908,26 +1900,79 @@ img {
     top: 5em;
     transform: translateX(-50%);
     left: 50%;
-    line-height: 1;
 }
 
 .text-404 h2 {
-    font: 3.8em;
+    font-size: 3.8em;
     color: #fff;
     letter-spacing: 0.4em;
-    margin-top: 20px;
 }
 
 .text-404 h3 {
     font-size: 1.2em;
     font-weight: 500;
     color: #fff;
-    letter-spacing: 0.2em;
 }
 
-@media screen and (min-width: 700px) {
-    .text-404 {
-        font-size: 1.2rem;
+
+@media screen and (max-width: 725px) {
+    body {
+        font-size: 0.4rem;
     }
-}
 
+    section {
+        height: 40vh;
+        padding-top: 60px;
+        box-shadow: 1px 1px 0 0 #000000;
+    }
+
+    #page-404 {
+        height: 45vh;
+    }
+
+    #scientist,
+    #checkbox-bulb {
+        height: 60vh;
+    }
+
+    .crow-leg-2 {
+        left: 3.92rem;
+    }
+
+    .crab-eyes:before {
+        height: 15.78px;
+        width: 15.78px;
+    }
+
+    header {
+        height: 60px;
+    }
+
+    #menu-icon {
+        gap: 5px;
+    }
+
+    #menu-icon > span {
+        width: 30px;
+        border: 1px solid white;
+    }
+
+    .line-2 {
+        transform: rotate(45deg) translate(0, -1px);
+    }
+
+    .nav-container {
+        width: 240px;
+        height: 385px;
+        text-align: center;
+        font-size: 0.8rem;
+        bottom: -390px;
+    }
+
+    main {
+        margin-top: 70px;
+        gap: 60px;
+    }
+
+    #
+}

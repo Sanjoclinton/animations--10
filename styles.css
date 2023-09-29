@@ -166,26 +166,22 @@ header {
 /* GENERAL SECTIONS CSS STYLING */
 
 main {
-    position: absolute;
-    margin: 20vh auto 0 auto;
-    width: 100vw;
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10vh;
+
 }
 
 section {
+    text-align: center;
+    position: relative;
+    padding-top: 10vh;
     height: 100vh;
     width: 80%;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 40px;
-    position: relative;
     border-radius: 1em;
-}
-
-.section-head {
-    position: absolute;
-    transform: translateX(-50%);
-    top: 12.5vh;
-    left: 50%;
 }
 
 /* SECTION 1 */
